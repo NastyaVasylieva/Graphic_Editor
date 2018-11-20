@@ -7,7 +7,7 @@
     -fx-text-fill: #b84848;
 }
 
-.menu:showing, /* selects Menu in MenuBar, if shown */
+.menu:showing,
 .menu-item:focused
 {
     -fx-background-color: #b84848;

@@ -3,12 +3,20 @@ package src.Model;
 import java.util.Objects;
 
 public class Point {
+    private int id;
     private double x;
     private double y;
 
+    public Point(int id, double x, double y) {
+        this.id = id;
+        this.x = x;
+        this.y = y;
+    }
     public Point(double x, double y) {
         this.x = x;
         this.y = y;
+    }
+    public Point() {
     }
 
     public double getX() {
@@ -18,6 +26,11 @@ public class Point {
     public double getY() {
         return y;
     }
+
+    public int getId() {
+        return id;
+    }
+
 
     @Override
     public boolean equals(Object o) {

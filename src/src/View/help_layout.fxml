@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="318.0" prefWidth="417.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.View.HelpView">
+   <children>
+      <ScrollPane prefHeight="318.0" prefWidth="417.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="318.0" prefWidth="416.0">
+               <children>
+                  <Label fx:id="information" alignment="CENTER" text="Інструкція користувача:&#10;-Додавання точок&#10;Для того, щоб додати точку, необхідно лівою клавішою миші &#10;натиснути на поле. Також можна додати її вручну, ввівши координати &#10;точки у поля х та у, та натиснути кнопку `Додати точку`.&#10;-Створення опуклої оболонки&#10;Для створення опуклої оболонки натисніть кнопку 'Побудувати опуклу &#10;оболонку'&#10;-Очищення поля&#10;Для очищення поля натиснть кнопку 'Очистити поле'&#10;-Перевірка, чи точка лежить всередині опуклої оболонки&#10;Для перевірки, після створення опуклої оболонки додайте точку вручну&#10;або автоматично, натиснувши на поле лівою кнопкою миші.&#10;Якщо точка буде червоного кольору, то вона лежить всередині&#10;оболонки, а якщо сірого - то знаходиться  ззовні.&#10; -Відображення точок у таблиці&#10;Всі точки відображаються у таблиці зі своїм порядкови номером. &#10;Також їх можна посортування у порядку зростання/спадання за &#10;будь-яким значенням." textAlignment="JUSTIFY" />
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
